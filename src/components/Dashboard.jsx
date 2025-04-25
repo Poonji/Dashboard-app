@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Category from './Category';
 import AddWidgetModal from './AddWidgetForm';
-import Header from './Header';
 import { MoreVertical } from 'lucide-react';
 
 const Dashboard = ({searchTerm}) => {

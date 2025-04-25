@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { addWidget } from '../store/WidgetSlice';
 import Widget from './Widget';
 
 const Category = ({ category, onOpenModal }) => {
